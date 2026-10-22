@@ -1,0 +1,20 @@
+================================================================
+  RELATÓRIO FINAL — TCC Lorrana Evelyn de Araújo Pereira
+  Curso: Tecnologia em Gestão de Dados — UFPI / CEAD
+  Gerado em: 22/10/2026 11:26
+================================================================
+
+  Ativo analisado : ^BVSP
+  Período         : 2016-01-01 -> 2026-10-22
+  Amostras treino : 2105
+  Amostras teste  : 527
+  Variável-alvo   : Volatilidade histórica (21 dias) — t+1
+
+  Modelo                       RMSE         MAE        R²
+  ------------------------------------------------------
+  XGBoost                   0.01392     0.00874    0.9033 ⭐ (Melhor)
+  LightGBM                  0.01496     0.00959    0.8883
+  Rede Neural (MLP)         0.01723     0.01239    0.8518
+
+  Melhor modelo   : XGBoost (menor RMSE)
+================================================================
