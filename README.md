@@ -39,9 +39,12 @@ tcc/
 │   └── report.py              # Formatação e persistência do relatório comparativo final
 ├── main.py                    # Script principal orquestrador do pipeline (CLI)
 ├── requirements.txt           # Dependências e bibliotecas do projeto
-├── README.md                  # Documentação completa do projeto
+├── README.md                  # Apresentação e guia rápido do projeto
+├── DOCUMENTACAO.md            # Documentação técnica, matemática e metodológica detalhada
 └── tcc_previsao_riscos_financeiros.py # Script original de referência (legado)
 ```
+
+> 📖 Para uma descrição aprofundada das formulações matemáticas, dicionário de dados, explicabilidade (SHAP/LIME) e arquitetura de software, consulte o arquivo [DOCUMENTACAO.md](DOCUMENTACAO.md).
 
 ---
 
