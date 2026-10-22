@@ -1,0 +1,24 @@
+# Ambientes virtuais
+.venv/
+venv/
+ENV/
+env/
+
+# Bytecode e cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# IDE e editores
+.vscode/
+.idea/
+.antigravity-ide/
+*.swp
+*.swo
+
+# Logs e arquivos de sistema
+*.log
+.DS_Store
+Thumbs.db
